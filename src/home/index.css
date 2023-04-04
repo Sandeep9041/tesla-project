@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+}
+
+.top-popup{
+    text-align: center;
+width: 100%;
+color:black;
+font-weight:400;
+font-size: 14px;
+padding-top: 15px;
+padding-bottom: 15px;
+opacity: 0.8;
+background-color:#ffffff;
+font-family: "Roboto",sans-serif;
+letter-spacing:1px;
+display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.website-home-container{
+   
+    min-height:100vh;
+    font-family:"Roboto",sans-serif;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/a269d7b4-87a9-4057-9ac5-2565e56a188e/bvlatuR/std/4096x2560/Homepage-Model-3-Desktop-LHD?quality=auto-medium&amp;format=auto");
+    background-size:cover;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+align-items:center;}
+
+a{
+    color: black;
+}
+
+.tesla-logo{
+    width:105px;
+    height:15px;}
+
+    .home-header-container{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+ul{
+    display: flex;
+}
+    li{
+        list-style: none;
+        margin-right: 19px;
+    }
+    .link{
+        text-decoration: none;
+        margin-right: 15px;
+        font-weight:500;
+        font-size: 15px;
+        letter-spacing:1px;
+    }
+    .nav-btn{
+        border: 0px;
+        background-color: transparent;
+    }
+    .link:hover{
+        background-color: #B8B8B8			;
+        padding: 11px 15px 11px 15px;
+        border-radius: 7px;
+    }
+    @media (max-width: 768px){
+        ul{
+            display: none;
+        }
+        
+    }
+    .top{
+        width: 75%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    @media (max-width:768px){
+     .website-home-container{
+        background-image: url("https://images.unsplash.com/photo-1571987502227-9231b837d92a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80");
+    }   
+    }
